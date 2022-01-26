@@ -1,0 +1,46 @@
+------------------------------------
+| Para corregir en clase, no enviar |
+------------------------------------
+1- Dado el archivo binario "datos.dat":
+1.1 sin ejecutarlo, lealo y responda: 
+qué tamaño tiene en bytes el archivo?
+Cuántos datos contiene, si fuera:
+_ float
+_ int
+_ double
+_ char
+(chequee en su equipo el sizeof de cada tipo antes de responder)
+1.2 Qué espera que haga
+
+-------------------------
+||
+-------------------------
+
+1.3 Haga un programa que lea el archivo y muestre los datos
+1.4 Haga un programa que lea el archivo, los cargue en un vector float, calcule el promedio y lo guarde en un archivo promedio.dat(deberá tener 4 bytes)
+
+2- Hacer un programa que dado un vector de 24 datos tipo int(generados al azar) con valores x entre 0 y 50 los guarde en un archivo enteros.bin.
+2.1 Cuantos bytes ocupa enteros.bin?
+2.2 Multiplique cada elemento por 2 y guardelo los nuevos valores en un archivo doble.bin: 
+2.3 Hacer un código que realice lo siguiente:
+
+a) abra el archivo enteros.bin, y sabiendo que son enteros, coloquelos en un vector
+b) presente un menú que ofrezca y realice las siguientes opciones :
+ b.1 Suma Total: sume todos los elementos del vector 
+ b.2 Suma Pares: sume todos los elementos pares
+ b.3 Suma M5: sume todos los múltiplos de 5
+ b.4 Porcentaje Pares: devuelva el porcentaje de números pares
+ b.5 Porcentaje M5: Devuelva el porcentaje de múltiplos de 5.
+ (en cada item guarde en un indice de un vector float de 5 posiciones, sería apropiado que el vector se denomine resultados)
+ c) Imprima los resultados
+ d) Guarde los resultados en un vector float de 5 posiciones
+ e) Guarde el vector resultados en un archivo resultado.dat
+------------
+| OPCIONAL |
+------------
+ 
+3- Dado el archivo enteros.bin del ej 2-
+3.1 Abrir el archivo y mostrar los indices de los numeros pares.
+
+En todas las funciones vinculadas con archivos, haga chequeo de error.
+

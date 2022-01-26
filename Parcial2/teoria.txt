@@ -1,0 +1,17 @@
+2021.11.06
+Alumno:
+
+1)
+/* genera el nombre/dia del archivo*/
+	char empresa_str[ 10 ];						//Creo vector de chars con 10 elementos (0 a 9)
+	char archivo[ 30 ] = "promedioEmpresa" ;	//Creo vector de chars con 30 elementos, asignando los chars p,r,o,m,e,d,i,o,E,m,p,r,e,s,a a partir de la posición 0. Ej.: archivo[0] es igual a "p".
+	sprintf(empresa_str, "%d" ,empresa);		//("empresa" no fue definida, asumo que contiene un valor numérico)El número contenido en "empresa" es convertido a string y guardado en empresa_str.
+	printf( "\n %s \n" ,empresa_str);			//Imprime en pantalla el contenido de empresa_str que ahora contiene un string del número almacenado en "empresa".
+	strcat(archivo,empresa_str);				//Concatena el contenido de empresa_str al contenido de archivo
+	strcat(archivo, ".dat" );					//Concatena el contenido de archivo a ".dat"
+	printf( "\n %s \n" ,archivo);				//Imprime el archivo que va a contener "promedioEmpresa" + empresa transformado a string + ".dat"
+	
+	
+a) El código toma el vector de caracteres "archivo", luego convierte el valor nuérico de "empresa" en string y concatena ambos más la cadena ".dat", almacenándolos en "archivo". Imprime el número "empresa" transformado a string y al final imprime el valor de "archivo" que será el resultado de la concatenación total.
+b) Utiliza empresa_str para almacenar el resultado en formato string del valor numérico de "empresa" para luego concatenarlos a las otras cadenas de char o strings.
+c) Sí, puedo transformar floats o ints a tipo string con esta función.
